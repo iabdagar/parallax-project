@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100vh;
+}
+
+.image_one {
+  background-image: url("../parallax-project/images/destinations.jpg");
+  height: 100vh;
+}
+.image_two {
+  background-image: url("../parallax-project/images/shimla.jpg");
+  height: 525px;
+}
+.image_three {
+  background-image: url("../parallax-project/images/manali.jpg");
+  height: 525px;
+}
+.image_four {
+  background-image: url("../parallax-project/images/rishikesh.jpg");
+  height: 525px;
+}
+
+.image_five {
+  background-image: url("../parallax-project/images/bhimtal.jpg");
+  height: 525px;
+}
+
+.image_six {
+  background-image: url("../parallax-project/images/kasol.jpg");
+  height: 525px;
+}
+
+.image_seven {
+  background-image: url("../parallax-project/images/destinations.jpg");
+  height: 100vh;
+}
+
+.image_style {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.p_text {
+  opacity: 0.9;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.text_bg {
+  background-color: white;
+  color: black;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+.section_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.5rem 5rem;
+  background-color: #0c0c0c;
+  color: white;
+}
+
+.section_text p {
+  font-size: 1rem;
+  line-height: 30px;
+  letter-spacing: 1.25px;
+  max-width: 525px;
+  text-align: justify;
+}
+
+.section_text .places {
+  background-color: white;
+  color: #0c0c0c;
+  padding: 0.25rem;
+  border-radius: 5px;
+}
